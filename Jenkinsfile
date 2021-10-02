@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        powershell 'dotnet build eShopOnWeb.snl'
+        pwsh 'dotnet build eShopOnWeb.snl'
       }
     }
 
