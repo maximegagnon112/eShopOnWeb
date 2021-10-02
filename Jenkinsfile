@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'dotnet build C:\\Users\\gagno\\Learning\\eShopOnWeb.snl'
+        sh 'dotnet build eShopOnWeb.snl'
       }
     }
 
